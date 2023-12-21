@@ -1,0 +1,19 @@
+.screen {
+    background-image: url("../../../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px 10%;
+    align-self: center;
+}
+
+.button {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}

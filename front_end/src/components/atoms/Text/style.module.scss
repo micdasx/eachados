@@ -1,0 +1,9 @@
+@import '../../../constants/fonts/fontsFamilies.module.scss';
+@import '../../../constants/fonts/fontsWeights.module.scss';
+@import '../../../constants/colors/colors.module.scss';
+
+.title {
+    font-family: $main_font;
+    color: $black;
+    font-weight: $text_font_weight;
+}

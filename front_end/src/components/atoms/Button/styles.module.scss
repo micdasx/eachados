@@ -1,0 +1,28 @@
+@import "../../../constants/colors/colors.module.scss";
+@import "../../../constants/fonts/fontsFamilies.module.scss";
+
+.container {
+    background-color: $white;
+    cursor: pointer;
+    min-width: 200px;
+    min-height: 50px;
+    max-width: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container:hover {
+    background-color: $gray;
+}
+
+.label {
+    font-family: $main_font;
+    color: $yellow;
+}
+
+.loading {
+    height: 20px;
+    width: 20px;
+    align-self: center;
+}

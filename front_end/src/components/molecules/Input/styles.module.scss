@@ -1,0 +1,14 @@
+@import "../../../constants/colors/colors.module.scss";
+@import "../../../constants/fonts/fontsFamilies.module.scss";
+@import "../../../constants/fonts/fontsWeights.module.scss";
+
+.input {
+    background-color: $white;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-family: $main_font;
+    color: $black;
+}

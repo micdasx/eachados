@@ -1,0 +1,35 @@
+@import "../../../constants/colors/colors.module.scss";
+
+.container {
+    background-color: $transparent_white;
+    margin: 20px 10%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.images {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.match {
+    background-color: lightgreen;
+    border-radius: 15px;
+}
+
+.matchContainer {
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.match h3 {
+    text-align: center;
+    color: white;
+}

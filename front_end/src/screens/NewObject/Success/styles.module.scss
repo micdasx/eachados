@@ -1,0 +1,21 @@
+.screen {
+    background-image: url("../../../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20%;
+}
+
+.image {
+    width: 70%;
+    max-width: 250px;
+}
+
+.button {
+    margin: 20px 0;
+}

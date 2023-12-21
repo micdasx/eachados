@@ -1,0 +1,19 @@
+@import '../../../constants/colors/colors.module.scss';
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    background-color: $transparent_white;
+}
+.containerLeft{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.containerRight{
+    flex: 20;
+    padding-left: 10px;
+}

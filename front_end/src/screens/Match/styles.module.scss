@@ -1,0 +1,22 @@
+@import "../../constants/colors/colors.module.scss";
+
+.screen {
+    background-image: url("../../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.buttonContainer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    padding: 5px 0;
+    background-color: $white;
+    border-radius: 50px 50px 0px 0px;
+}
